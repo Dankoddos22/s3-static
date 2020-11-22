@@ -1,0 +1,56 @@
+90  aws configure
+   91  aws sts get-caller-identity
+   92  aws s3 ls
+   93  aws s3 mb s3://lab1-bucket
+   94  aws s3 mb s3://s3-ladnyuk
+   95  aws s3 ls
+   96  aws s3 rb s3://dan-name-s3
+   97  aws s3 ls
+   98  clear
+   99  aws s3 ls
+  100  aws
+  101  aws configure
+  102  aws s3 ls
+  103  clear
+  104  aws configure
+  105  clear
+  106  aws configure
+  107  aws s3 ls
+  108  aws cli
+  109  clear
+  110  aws configure
+  111  aws s3 ls
+  112  aws configure
+  113  aws s3 ls
+  114  aws s3 rb s3://s3-ladnyuk
+  115  aws s3 mb  s3://s3-ladnyuk
+  116  cd /.Стільниця
+  117  cd Стільниця
+  118  ді
+  119  ls
+  120  mkdir
+  121  mkdir aws
+  122  cd aws
+  123  ls
+  124  touch s3.txt
+  125  cd home
+  126  cd ./home
+  127  clear
+  128  ls
+  129  cd ./home/kali
+  130  cd /home/kali
+  131  aws s3 ls
+  132  cd /Стільниц
+  133  cd /Стільниця
+  134  cd. /Стільниця
+  135  cd Стільниця
+  136  cd s3-site
+  137  ls
+  138  aws s3 sync . s3//s3-ladnyuk
+  139  aws s3 sync . s3://s3-ladnyuk
+  140  aws s3 website s3://s3-ladnyuk/ --index-document index.html --error-document error.html
+  141  aws s3api put-bucket-policy --bucket s3-ladnyuk --policy file://policy.json
+  142  aws s3 sync . s3://s3-ladnyuk
+  143  aws s3api put-bucket-policy --bucket s3-ladnyuk --policy file://policy.json
+  144  history
+
